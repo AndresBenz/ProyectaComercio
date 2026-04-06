@@ -23,7 +23,7 @@ namespace Funcionalidades
         public AccesoDatos()
         {
 
-         conexion = new SqlConnection("server= DESKTOP-BCI06CT\\SQLEXPRESS; database=PROYECTACOMERCIO; Integrated Security = True");
+         conexion = new SqlConnection("server=.; database=PROYECTACOMERCIO; Integrated Security = True");
 
 
 
