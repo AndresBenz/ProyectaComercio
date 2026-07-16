@@ -198,6 +198,7 @@ namespace CodigoAgroAdmin
                 Producto producto = new Producto
                 {
                     Nombre = nombreProducto.Text,
+                    Precio = Convert.ToDecimal(precioProducto.Text),
                     IdCategoria = Convert.ToInt32(categoriaProducto.SelectedValue),
                     IdMarca = Convert.ToInt32(marcaProducto.SelectedValue),
                     StockActual = Convert.ToInt32(stockActual.Text),

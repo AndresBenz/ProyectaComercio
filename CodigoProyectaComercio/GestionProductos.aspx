@@ -28,6 +28,7 @@
             <asp:GridView ID="dgvProductos" runat="server" CssClass="custom-table" AutoGenerateColumns="False" OnRowCommand="GridViewProductos_RowCommand">
                 <Columns>
                     <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
+                    <asp:BoundField DataField="Precio" HeaderText="Precio" DataFormatString="${0:N2}" />
                     <asp:BoundField DataField="NombreCategoria" HeaderText="Categoría" />
                     <asp:BoundField DataField="NombreMarca" HeaderText="Marca" />
                     <asp:BoundField DataField="StockActual" HeaderText="Stock Actual" />
@@ -64,6 +65,13 @@
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="nombreProducto" ValidationExpression="^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$" ErrorMessage="El nombre solo puede contener letras." CssClass="text-danger" Display="Dynamic" ValidationGroup="grupoGuardar" />
 
             </div>
+               <div class="form-group">
+       <label class="form-label" for="precioProducto">Precio del Producto</label>
+       <asp:TextBox ID="precioProducto" runat="server" CssClass="form-control" placeholder="Ingrese el precio del producto"></asp:TextBox>
+       <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="precioProducto" ErrorMessage="El precio del producto es obligatorio." CssClass="text-danger" Display="Dynamic" ValidationGroup="grupoGuardar" />
+       <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="precioProducto" ValidationExpression="^\d+([.,]\d{1,2})?$"  ErrorMessage="El nombre solo puede contener numeros." CssClass="text-danger" Display="Dynamic" ValidationGroup="grupoGuardar" />
+
+   </div>
             <div class="form-group">
                 <label class="form-label" for="categoriaProducto">Categoria de Producto</label>
                 <asp:DropDownList ID="categoriaProducto" runat="server" CssClass="form-control">
@@ -99,6 +107,8 @@
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="stockMinimo" ValidationExpression="^\d+$" ErrorMessage="Solo se pueden ingresar números." CssClass="text-danger" Display="Dynamic" ValidationGroup="grupoGuardar" />
 
             </div>
+
+
 
             <div class="form-group">
                 <label class="form-label" for="porcentajeGanancia">Porcentaje de Ganancia</label>
