@@ -7,7 +7,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container mt-4">
-        <h2 class="page-title">Gestionar Productos</h2>
+        <h2 class="page-title">Gestionar de productos</h2>
 
 
 

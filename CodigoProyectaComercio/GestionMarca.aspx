@@ -4,7 +4,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-          <h1 class="page-title">Gestion Marca</h1>
+          <h1 class="page-title">Gestion de marcas</h1>
     <!-- Formulario de edición/agregado -->
     <div id="divEditarMarca" runat="server" visible="false" class="form-container">
         <h3>Editar Marca</h3>
@@ -24,9 +24,11 @@
     </div>
      <!-- Lista de marcas -->
       <div id="divListaMarcas" runat="server">
-       <div class="mt-3">
+       <div class="mt-3 mb-4">
     <asp:Button ID="btnAgregarMarca" runat="server" Text="Agregar Nueva Marca" OnClick="btnAgregarMarca_Click" CssClass="btn btn-success" />
-</div>
+
+
+          </div>
     <asp:GridView ID="gvMarcas" runat="server" AutoGenerateColumns="False" OnRowCommand="gvMarcas_RowCommand" CssClass="custom-table">
         <Columns>
             <asp:BoundField DataField="IdMarca" HeaderText="ID Marca" SortExpression="IdMarca" />

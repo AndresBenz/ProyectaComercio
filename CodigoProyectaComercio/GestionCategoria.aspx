@@ -4,7 +4,7 @@
    <link href="Gestion.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1 class="page-title">Gestión de Categorías</h1>
+    <h1 class="page-title">Gestión de categorías</h1>
 
     <!--Agregar categoría -->
     <div id="divFormulario" class="form-container" runat="server" visible="false">
@@ -28,7 +28,7 @@
 
     <!-- Lista de categorías -->
     <div id="divLista" class="list-container" runat="server">
-        <div class="mt-3">
+        <div class="mt-3 mb-4">
     <asp:Button ID="btnAgregarNueva" runat="server" Text="Agregar Nueva Categoría" OnClick="btnAgregarNueva_Click" CssClass="btn btn-success" />
 </div>
         <asp:GridView ID="gvCategorias" runat="server" AutoGenerateColumns="False" OnRowCommand="gvCategorias_RowCommand" CssClass="custom-table">
