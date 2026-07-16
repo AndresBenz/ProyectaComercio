@@ -4,6 +4,7 @@
    <link href="Gestion.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container mt-4">
     <h1 class="page-title">Gestión de categorías</h1>
 
     <!--Agregar categoría -->
@@ -50,4 +51,5 @@
     </div>
 
     <asp:Label ID="lblMensaje" runat="server" CssClass="text-success mt-3"></asp:Label>
+         </div>
 </asp:Content>

@@ -6,6 +6,7 @@
     <title>Registro de Compras</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container mt-4">
     <h2 class="page-title">Registro de Compras</h2>
     <asp:Panel ID="PanelCompras" runat="server">
         <asp:GridView ID="gvCompras" runat="server" DataKeyNames="IdCompra" AutoGenerateColumns="False" CssClass="custom-table" OnRowCommand="gvCompras_RowCommand">
@@ -39,4 +40,5 @@
         <asp:Button ID="btnVolver" runat="server" Text="Volver a Compras" OnClick="btnVolver_Click" CssClass="btn btn-secondary" />
              </div>
     </asp:Panel>
+        </div>
 </asp:Content>

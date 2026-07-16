@@ -4,6 +4,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container mt-4">
           <h1 class="page-title">Gestion de marcas</h1>
     <!-- Formulario de edición/agregado -->
     <div id="divEditarMarca" runat="server" visible="false" class="form-container">
@@ -44,4 +45,5 @@
         </Columns>
     </asp:GridView>
           </div>
+        </div>
 </asp:Content>

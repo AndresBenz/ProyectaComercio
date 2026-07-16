@@ -5,6 +5,8 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container mt-4">
+      <h1 class="page-title">Gestion de proveedores</h1>
     <div id="listarProveedores" runat="server">
         <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
         <asp:Button ID="btnAgregar" runat="server" Text="Agregar Proveedor" OnClick="btnAgregar_Click" CssClass="btn btn-primary" />
@@ -112,4 +114,5 @@
             <asp:Button ID="btnCancelarProveedor" runat="server" Text="Cancelar" OnClick="btnCancelarProveedor_Click" CssClass="btn btn-secondary" />
         </div>
     </div>
+        </div>
 </asp:Content>

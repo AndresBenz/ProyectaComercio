@@ -4,6 +4,8 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="container mt-4">
+       <h1 class="page-title">Registro de ventas</h1>
      <asp:Panel ID="PanelVentas" runat="server" style="margin-top: 40px;">
     <asp:GridView ID="GridViewVentas" runat="server" CssClass="custom-table"  AutoGenerateColumns="False"  OnRowCommand="GridViewVentas_RowCommand" AllowPaging="True" PageSize="10" OnPageIndexChanging="GridViewVentas_PageIndexChanging"> 
     <Columns>
@@ -35,4 +37,5 @@
                  <asp:Button ID="btnVolver" runat="server" Text="Volver a Ventas"   CssClass="btn btn-secondary"   OnClick="btnVolver_Click" />
              </div>
             </asp:Panel>
+         </div>
 </asp:Content>

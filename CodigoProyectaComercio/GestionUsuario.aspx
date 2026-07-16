@@ -5,6 +5,8 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container mt-4">
+      <h1 class="page-title">Gestion de usuarios</h1>
     <asp:Label ID="lblMensaje" runat="server" ForeColor="Red" />
     <div id="listarUsuarios" runat="server">
         <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
@@ -78,4 +80,5 @@
 
         </div>
     </div>
+         </div>
 </asp:Content>
