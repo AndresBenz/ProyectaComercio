@@ -180,18 +180,20 @@ namespace Funcionalidades
 
         public decimal CalcularPrecioVenta(int idProducto)
         {
-            decimal precioCompra = ObtenerPrecioCompraMasReciente(idProducto);
+            decimal precioCompra = ObtenerCostoBaseDesdeProducto(idProducto);
             decimal porcentajeGanancia = ObtenerPorcentajeGanancia(idProducto);
-
-            decimal precioVenta = precioCompra * (1 + (porcentajeGanancia / 100));
+         
+            decimal precioVenta = precioCompra * (1 + (porcentajeGanancia / 100M));
             return precioVenta;
         }
 
-        public decimal ObtenerPrecioCompraMasReciente(int idProducto)
-        {
-            decimal precioCompra = 0;
-            string consulta = "SELECT TOP 1 dc.PrecioCompra FROM DetalleCompra dc INNER JOIN Compras c ON dc.IdCompra = c.IdCompra WHERE dc.IdProducto = @IdProducto ORDER BY c.FechaCompra DESC";
+       
 
+        public decimal ObtenerCostoBaseDesdeProducto(int idProducto)
+        {
+            decimal costoBase = 0;
+            
+            string consulta = "SELECT Precio FROM Productos WHERE IdProducto = @IdProducto";
 
             AccesoDatos accesoDatos = new AccesoDatos();
             try
@@ -200,9 +202,9 @@ namespace Funcionalidades
                 accesoDatos.setearParametros("@IdProducto", idProducto);
                 accesoDatos.ejecutarLectura();
 
-                if (accesoDatos.Lector.Read() && !Convert.IsDBNull(accesoDatos.Lector["PrecioCompra"]))
+                if (accesoDatos.Lector.Read() && !Convert.IsDBNull(accesoDatos.Lector["Precio"]))
                 {
-                    precioCompra = Convert.ToDecimal(accesoDatos.Lector["PrecioCompra"]);
+                    costoBase = Convert.ToDecimal(accesoDatos.Lector["Precio"]);
                 }
 
                 accesoDatos.cerrarConexion();
@@ -212,7 +214,7 @@ namespace Funcionalidades
                 throw ex;
             }
 
-            return precioCompra;
+            return costoBase;
         }
 
         public decimal ObtenerPorcentajeGanancia(int idProducto)
