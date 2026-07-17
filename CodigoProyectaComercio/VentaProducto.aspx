@@ -95,8 +95,7 @@
     <asp:UpdatePanel ID="UpdSeleccionados" runat="server">
         <ContentTemplate>
             <!-- GridView para mostrar productos seleccionados -->
-            <asp:Button ID="btnVerSeleccionados" runat="server" Text="Ver Seleccionados"
-                CssClass="btn btn-primary mt-3" OnClick="btnVerSeleccionados_Click" />
+            
             <asp:Label ID="lblMensaje" runat="server" Text="" ForeColor="Red" Visible="false" />
             <asp:GridView ID="dgvSeleccionados" runat="server" AutoGenerateColumns="false"
                 CssClass="table mt-3">

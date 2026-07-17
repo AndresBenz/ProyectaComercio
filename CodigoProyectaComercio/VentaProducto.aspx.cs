@@ -206,6 +206,7 @@ namespace CodigoAgroAdmin
 
                     dgvProductos.DataSource = listaActual;
                     dgvProductos.DataBind();
+                    ActualizarPanelSeleccionados();
                 }
             }
 
@@ -216,31 +217,6 @@ namespace CodigoAgroAdmin
         }
 
 
-        protected void btnVerSeleccionados_Click(object sender, EventArgs e)
-        {
-            List<Producto> listaSeleccionados = Session["listaSeleccionados"] as List<Producto>;
-
-            if (listaSeleccionados != null && listaSeleccionados.Count > 0)
-            {
-                dgvSeleccionados.DataSource = listaSeleccionados;
-                dgvSeleccionados.DataBind();
-                lblMensaje.Visible = false;
-
-                decimal total = CalcularTotal();
-                lblTotal.Text = $"Total: ${total:N2}";
-                lblTotal.Visible = true;
-            }
-            else
-            {
-                lblMensaje.Text = "No se han seleccionado productos.";
-                lblMensaje.Visible = true;
-                dgvSeleccionados.DataSource = null;
-                dgvSeleccionados.DataBind();
-
-                lblTotal.Text = "Total: $0.00";
-                lblTotal.Visible = true;
-            }
-        }
 
 
         protected void btnComprarTodos_Click(object sender, EventArgs e)
@@ -338,10 +314,36 @@ namespace CodigoAgroAdmin
             dgvSeleccionados.DataBind();
             lblTotal.Text = "Total: $0.00";
             lblTotal.Visible = false;
+            ActualizarPanelSeleccionados();
             Session["IdClienteSeleccionado"] = null;
             txtDNI.Text = "";
             pnlClienteNoExiste.Visible = false;
             pnlClienteEncontrado.Visible = false;
+        }
+        private void ActualizarPanelSeleccionados()
+        {
+            List<Producto> listaSeleccionados = Session["listaSeleccionados"] as List<Producto>;
+
+            if (listaSeleccionados != null && listaSeleccionados.Count > 0)
+            {
+                dgvSeleccionados.DataSource = listaSeleccionados;
+                dgvSeleccionados.DataBind();
+                lblMensaje.Visible = false;
+
+                decimal total = CalcularTotal();
+                lblTotal.Text = $"Total: ${total:N2}";
+                lblTotal.Visible = true;
+            }
+            else
+            {
+                lblMensaje.Text = "No se han seleccionado productos.";
+                lblMensaje.Visible = true;
+                dgvSeleccionados.DataSource = null;
+                dgvSeleccionados.DataBind();
+
+                lblTotal.Text = "Total: $0.00";
+                lblTotal.Visible = true;
+            }
         }
     }
 }

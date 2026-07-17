@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C9987B3-E6A5-4746-9144-FCFF75AA5A39}|Funcionalidades\\Funcionalidades.csproj|C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\funcionalidades\\repositorioventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C9987B3-E6A5-4746-9144-FCFF75AA5A39}|Funcionalidades\\Funcionalidades.csproj|solutionrelative:funcionalidades\\repositorioventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|c:\\users\\andres\\documents\\github\\proyectacomercio\\codigoproyectacomercio\\empleado.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|solutionrelative:empleado.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|c:\\users\\andres\\documents\\github\\proyectacomercio\\codigoproyectacomercio\\ventaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\ventaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|solutionrelative:ventaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C9987B3-E6A5-4746-9144-FCFF75AA5A39}|Funcionalidades\\Funcionalidades.csproj|C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\funcionalidades\\repositorioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C9987B3-E6A5-4746-9144-FCFF75AA5A39}|Funcionalidades\\Funcionalidades.csproj|solutionrelative:funcionalidades\\repositorioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\ventaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,56 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Empleado.Master",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Empleado.Master",
-              "RelativeDocumentMoniker": "Empleado.Master",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Empleado.Master",
-              "RelativeToolTip": "Empleado.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-07-17T13:05:03.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepositorioVenta.cs",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Funcionalidades\\RepositorioVenta.cs",
-              "RelativeDocumentMoniker": "Funcionalidades\\RepositorioVenta.cs",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Funcionalidades\\RepositorioVenta.cs",
-              "RelativeToolTip": "Funcionalidades\\RepositorioVenta.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAiwL0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T00:02:40.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RepositorioProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Funcionalidades\\RepositorioProducto.cs",
-              "RelativeDocumentMoniker": "Funcionalidades\\RepositorioProducto.cs",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Funcionalidades\\RepositorioProducto.cs",
-              "RelativeToolTip": "Funcionalidades\\RepositorioProducto.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAA4wCAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:52:34.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "VentaProducto.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\VentaProducto.aspx.cs",
               "RelativeDocumentMoniker": "VentaProducto.aspx.cs",
               "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\VentaProducto.aspx.cs",
               "RelativeToolTip": "VentaProducto.aspx.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAAAkwJoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAkwNoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:32:50.512Z"
+              "WhenOpened": "2026-07-16T23:32:50.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "VentaProducto.aspx",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\VentaProducto.aspx",
               "RelativeDocumentMoniker": "VentaProducto.aspx",
@@ -105,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Login.aspx",
               "RelativeDocumentMoniker": "Login.aspx",
