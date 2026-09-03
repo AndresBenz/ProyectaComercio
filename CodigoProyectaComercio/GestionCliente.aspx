@@ -39,19 +39,19 @@
             <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvNombreCliente" runat="server" ControlToValidate="txtNombre" ErrorMessage="El nombre del producto es obligatorio." CssClass="text-danger" Display="Dynamic" ValidationGroup="grupoGuardar" />
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNombre" ValidationExpression="^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$" ErrorMessage="El nombre solo puede contener letras." CssClass="text-danger" Display="Dynamic" ValidationGroup="grupoGuardar" />
-
+            
         </div>
         <div>
             <asp:Label ID="lblDNI" runat="server" Text="DNI:" CssClass="form-label"></asp:Label>
             <asp:TextBox ID="txtDNI" runat="server" CssClass="form-control"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rfvDNI" runat="server" ControlToValidate="txtDNI" InitialValue="" ErrorMessage="El DNI es obligatorio." ForeColor="Red" ValidationGroup="grupoGuardar" />
-            <asp:RegularExpressionValidator ID="revDNI" runat="server" ControlToValidate="txtDNI" ValidationExpression="^\d{8,10}$" ErrorMessage="El DNI debe ser un número entre 8 y 10 dígitos." ForeColor="Red" ValidationGroup="grupoGuardar" />
+            <asp:RequiredFieldValidator ID="rfvDNI" runat="server" ControlToValidate="txtDNI" InitialValue="" ErrorMessage="El DNI es obligatorio." ForeColor="Red" ValidationGroup="grupoGuardar" Display="Dynamic"/>
+            <asp:RegularExpressionValidator ID="revDNI" runat="server" ControlToValidate="txtDNI" ValidationExpression="^\d{8}$" Display="Dynamic"  ErrorMessage="El DNI debe ser un número entre 8 y 10 dígitos." ForeColor="Red" ValidationGroup="grupoGuardar" />
         </div>
         <div>
             <asp:Label ID="lblCorreo" runat="server" Text="Correo Electrónico:" CssClass="form-label"></asp:Label>
             <asp:TextBox ID="txtCorreo" runat="server" CssClass="form-control"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rfvCorreo" runat="server" ControlToValidate="txtCorreo" InitialValue="" ErrorMessage="El correo es obligatorio." ForeColor="Red" ValidationGroup="grupoGuardar" />
-            <asp:RegularExpressionValidator ID="revCorreo" runat="server" ControlToValidate="txtCorreo" ValidationExpression="^[a-zA-Z0-9._%+-]+@[a-zAZ0-9.-]+\.[a-zA-Z]{2,}$" ErrorMessage="El correo electrónico no tiene un formato válido." ForeColor="Red" ValidationGroup="grupoGuardar" />
+            <asp:RequiredFieldValidator ID="rfvCorreo" runat="server" ControlToValidate="txtCorreo" InitialValue="" ErrorMessage="El correo es obligatorio." ForeColor="Red" ValidationGroup="grupoGuardar" Display="Dynamic"/>
+            <asp:RegularExpressionValidator ID="revCorreo" runat="server" ControlToValidate="txtCorreo" ValidationExpression="^[a-zA-Z0-9._%+-]+@[a-zAZ0-9.-]+\.[a-zA-Z]{2,}$" ErrorMessage="El correo electrónico no tiene un formato válido." Display="Dynamic" ForeColor="Red" ValidationGroup="grupoGuardar" />
         </div>
         <div>
             <asp:Label ID="lblDireccion" runat="server" Text="Direccion:" CssClass="form-label"></asp:Label>
@@ -60,8 +60,8 @@
         <div>
             <asp:Label ID="lblTelefono" runat="server" Text="Teléfono:" CssClass="form-label"></asp:Label>
             <asp:TextBox ID="txtTelefono" runat="server" CssClass="form-control"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rfvTelefono" runat="server" ControlToValidate="txtTelefono" InitialValue="" ErrorMessage="El teléfono es obligatorio." ForeColor="Red" ValidationGroup="grupoGuardar" />
-            <asp:RegularExpressionValidator ID="revTelefono" runat="server" ControlToValidate="txtTelefono" ValidationExpression="^\d{10}$" ErrorMessage="El teléfono debe ser un número de 10 dígitos." ForeColor="Red" ValidationGroup="grupoGuardar" />
+            <asp:RequiredFieldValidator ID="rfvTelefono" runat="server" ControlToValidate="txtTelefono" InitialValue="" ErrorMessage="El teléfono es obligatorio." Display="Dynamic" ForeColor="Red" ValidationGroup="grupoGuardar" />
+            <asp:RegularExpressionValidator ID="revTelefono" runat="server" ControlToValidate="txtTelefono" ValidationExpression="^\d{10}$" ErrorMessage="El teléfono debe ser un número de 10 dígitos." Display="Dynamic" ForeColor="Red" ValidationGroup="grupoGuardar" />
         </div>
         <div style="margin-top: 20px; text-align: center;">
             <asp:Button ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" CssClass="btn-add" ValidationGroup="grupoGuardar" />
