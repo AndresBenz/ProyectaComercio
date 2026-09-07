@@ -37,8 +37,13 @@
                 <asp:BoundField DataField="IdCategoria" HeaderText="ID Categoria" SortExpression="IdCategoria" />
                 <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
               
-                <asp:BoundField DataField="Activo" HeaderText="Activo" SortExpression="Activo" />
-
+<asp:TemplateField HeaderText="Estado">
+            <ItemTemplate>
+                <span class='badge <%# (bool)Eval("Activo") ? "bg-success" : "bg-danger" %>'>
+                    <%# (bool)Eval("Activo") ? "Activo" : "Inactivo" %>
+                </span>
+            </ItemTemplate>
+        </asp:TemplateField>
                 <asp:TemplateField>
                     <ItemTemplate>
                         <asp:Button ID="btnModificar" runat="server" CommandName="EditarCategoria" CommandArgument='<%# Eval("IdCategoria") %>' Text="Editar" CssClass="btn btn-warning btn-sm" />

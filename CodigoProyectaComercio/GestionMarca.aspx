@@ -34,7 +34,13 @@
         <Columns>
             <asp:BoundField DataField="IdMarca" HeaderText="ID Marca" SortExpression="IdMarca" />
             <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
-                        <asp:BoundField DataField="Activo" HeaderText="Activo" SortExpression="Activo" />
+                      <asp:TemplateField HeaderText="Estado">
+            <ItemTemplate>
+                <span class='badge <%# (bool)Eval("Activo") ? "bg-success" : "bg-danger" %>'>
+                    <%# (bool)Eval("Activo") ? "Activo" : "Inactivo" %>
+                </span>
+            </ItemTemplate>
+        </asp:TemplateField>
 
             <asp:TemplateField>
                 <ItemTemplate>
