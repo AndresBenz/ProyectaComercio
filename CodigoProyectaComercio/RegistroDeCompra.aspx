@@ -59,8 +59,12 @@
             </asp:TemplateField>
         </Columns>
     </asp:GridView>
-    <h4>Total General: $<asp:Label ID="lblTotal" runat="server" Text="0" class="form-label"></asp:Label></h4>
-    <asp:Label ID="lblMensaje" runat="server" ForeColor="Red" Visible="false" class="form-label"></asp:Label>
+    <h4 style="text-align: center; margin-top: 15px;">
+    Total General: $<asp:Label ID="lblTotal" runat="server" Text="0" Style="display: inline;"></asp:Label>
+</h4>
+<div style="text-align: center;">
+    <asp:Label ID="lblMensaje" runat="server" ForeColor="Red" Visible="false"></asp:Label>
+</div>
 
 
     <asp:RadioButtonList ID="rblMetodoPago" runat="server" AutoPostBack="true" OnSelectedIndexChanged="rblMetodoPago_SelectedIndexChanged" class="form-control">

@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|c:\\users\\andres\\documents\\github\\proyectacomercio\\codigoproyectacomercio\\registrodecompra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|solutionrelative:registrodecompra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|c:\\users\\andres\\documents\\github\\proyectacomercio\\codigoproyectacomercio\\registrodecompra.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|solutionrelative:registrodecompra.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|c:\\users\\andres\\documents\\github\\proyectacomercio\\codigoproyectacomercio\\registroventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\registroventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|solutionrelative:registroventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C9987B3-E6A5-4746-9144-FCFF75AA5A39}|Funcionalidades\\Funcionalidades.csproj|c:\\users\\andres\\documents\\github\\proyectacomercio\\codigoproyectacomercio\\funcionalidades\\repositoriocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C9987B3-E6A5-4746-9144-FCFF75AA5A39}|Funcionalidades\\Funcionalidades.csproj|solutionrelative:funcionalidades\\repositoriocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\ventaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|solutionrelative:ventaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|c:\\users\\andres\\documents\\github\\proyectacomercio\\codigoproyectacomercio\\registrocompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6D503846-29F6-44AA-B4F8-1ED0BA5A3C8C}|ProyectaComercio.csproj|solutionrelative:registrocompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +22,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RegistroVentas.aspx",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\RegistroVentas.aspx",
               "RelativeDocumentMoniker": "RegistroVentas.aspx",
@@ -51,71 +31,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-09-03T20:17:55.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RepositorioCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Funcionalidades\\RepositorioCompra.cs",
-              "RelativeDocumentMoniker": "Funcionalidades\\RepositorioCompra.cs",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\Funcionalidades\\RepositorioCompra.cs",
-              "RelativeToolTip": "Funcionalidades\\RepositorioCompra.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAwwHcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T17:33:16.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VentaProducto.aspx",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\VentaProducto.aspx",
-              "RelativeDocumentMoniker": "VentaProducto.aspx",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\VentaProducto.aspx",
-              "RelativeToolTip": "VentaProducto.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-07-16T23:27:56.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistroDeCompra.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\RegistroDeCompra.aspx.cs",
-              "RelativeDocumentMoniker": "RegistroDeCompra.aspx.cs",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\RegistroDeCompra.aspx.cs",
-              "RelativeToolTip": "RegistroDeCompra.aspx.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAUwLIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T17:37:22.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegistroDeCompra.aspx",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\RegistroDeCompra.aspx",
-              "RelativeDocumentMoniker": "RegistroDeCompra.aspx",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\RegistroDeCompra.aspx",
-              "RelativeToolTip": "RegistroDeCompra.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-09-03T17:37:00.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegistroCompras.aspx",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\RegistroCompras.aspx",
-              "RelativeDocumentMoniker": "RegistroCompras.aspx",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\ProyectaComercio\\CodigoProyectaComercio\\RegistroCompras.aspx",
-              "RelativeToolTip": "RegistroCompras.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-09-03T17:36:56.713Z",
               "EditorCaption": ""
             }
           ]

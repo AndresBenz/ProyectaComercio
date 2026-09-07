@@ -130,6 +130,21 @@ namespace CodigoAgroAdmin
             }
         }
 
+        private void LimpiarFormulario()
+        {
+            ddlProveedores.SelectedIndex = 0;
+
+            gvProductos.DataSource = null;
+            gvProductos.DataBind();
+
+            Session["productosSeleccionados"] = new List<Producto>();
+            ActualizarVistaSeleccionados();
+
+            rblMetodoPago.ClearSelection();
+            lblMetodoPagoSeleccionado.Text = "Selecciona un método de pago.";
+            lblTotal.Text = "0";
+        }
+
 
         private void ActualizarVistaSeleccionados()
         {
@@ -235,6 +250,7 @@ namespace CodigoAgroAdmin
         protected void btnCerrar_Click(object sender, EventArgs e)
         {
             pnlVentaExitoso.Visible = false;
+            LimpiarFormulario();
         }
     }
 }
