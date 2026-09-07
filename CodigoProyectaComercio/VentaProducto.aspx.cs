@@ -146,10 +146,11 @@ namespace CodigoAgroAdmin
                 {
                     RepositorioProducto repositorioProducto = new RepositorioProducto();
                     int stockBD = repositorioProducto.ObtenerStockDesdeBD(idProducto);
-
+                    bool sePudoSumar = false;
                     if (e.CommandName == "Incrementar" && producto.StockActual > 0)
                     {
                         producto.StockActual -= 1;
+                        sePudoSumar = true;
                     }
                     else if (e.CommandName == "Decrementar" && producto.StockActual < stockBD)
                     {
@@ -167,7 +168,7 @@ namespace CodigoAgroAdmin
 
                     if (e.CommandName == "Incrementar")
                     {
-                        if (producto.StockActual > 0)
+                        if (sePudoSumar) 
                         {
                             if (productoSeleccionado == null)
                             {
@@ -207,6 +208,7 @@ namespace CodigoAgroAdmin
                     dgvProductos.DataSource = listaActual;
                     dgvProductos.DataBind();
                     ActualizarPanelSeleccionados();
+                  
                 }
             }
 
